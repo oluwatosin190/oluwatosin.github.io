@@ -6,10 +6,12 @@ html {
 }
 
 body {
-  font-family: "Dancing Script", cursive;
+   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: oblique;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 hr {
@@ -42,7 +44,7 @@ header.startup h1 {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
-   font-family: "Dancing Script", cursive;
+    font-family: "Roboto", sans-serif;
 }
 
 .btn-xl {
